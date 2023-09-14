@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.title{
+    background-color: aqua;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family:'Montserrat', sans-serif;
+}
+
+.top-birds{
+    position: absolute;
+    right: 300px;
+    top: 30px;
+}
+
+.bottom-birds {
+    position: absolute;
+    left: 250px;
+    bottom: 150px;
+  }
+
+  #summary{
+    margin-top: 80px;
+  }
+
+  .mypic{
+    border-radius: 50%;
+  }
+
+  .hello{
+    color: #66bfbf;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+  }
+
+  p{
+    line-height: 2;
+    font-size: 1.0rem;
+  }
+
+  .edu-title {
+    color: #66bfbf;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+  }
+
+  .skil{
+    display: flex;
+    justify-content: center;
+    color: #66bfbf;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    padding-top: 50px;
+  }
+
+  .tbold{
+    display: flex;
+    justify-content: center;
+    color: #66bfbf;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+  }
+
+  .tdesign{
+    color: #66bfbf;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    font-weight: normal;
+  }
+
+  .parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 60px;
+    margin-left: 30%;
+    text-align: left;
+    row-gap: 2rem;
+  }
+
+  .creative{
+    color: #66bfbf;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    font-weight: normal;  
+  }
+
+  .coding {
+    grid-area: 1/ 2 / 2 / 2;
+  }
+
+ .bulletin{
+  list-style-position: inside;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+ }
+
+ .certificate{
+    color: #66bfbf;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-weight: normal; 
+    margin-left: 5%;
+    margin-bottom: 0;
+ }
+
+ .bulletin li{
+    margin-bottom: 10px;
+ }
+
+ .bulletinhobbies{
+  list-style-position: inside;
+  font-size: 1.5rem;
+ }
+
+ .title-hobbies{
+      color: #66bfbf;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-weight: normal; 
+    margin-bottom: 0;
+ }
+
+ .btn{
+  background: #66bfbf;
+  border-radius: 8px;
+  color: whitesmoke;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+ }
+
+ .bottom{
+  font-size: 2rem;
+ }
+
+ .final-container{
+  margin-top: 100px;
+  padding-bottom: 100px;
+ }
+
+ a {
+  padding-right: 15px;
+ }
+
+ .final-container{
+  background-color: #66bfbf;
+  padding-top: 20px;
+ }
+
+ hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+ }
+
+ .footer{
+  padding-top: 10px;
+  color: white;
+ }
